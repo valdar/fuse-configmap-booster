@@ -93,7 +93,7 @@ $ oc new-project MY_PROJECT_NAME
 +
 [source,bash,options="nowrap",subs="attributes+"]
 ----
-$ oc import-image fis-java-openshift:1.0 --from={image} --confirm
+$ oc import-image fuse-java-openshift:1.0 --from={image} --confirm
 ----
 
 . Change the directory to the folder that contains the extracted booster application (for example, `my_openshift/fuse-configmap-booster`) :
